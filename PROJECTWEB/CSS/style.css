@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+Australia+VIC+WA+NT+Mano+Precursiva&display=swap');
+
+/* Estilo para el cuerpo */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    background: url('https://www.partnermd.com/hubfs/Blog%20Images%20%28Optimized%29/modern-hospital-building-picture-id1312706413%20%281%29%20%281%29.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 0%;
+}
+
+.navbar { 
+    background: linear-gradient(rgb(255, 255, 255) 20%, rgb(83, 118, 184) 80%); /* Gradiente de fondo */ 
+}
+
+/* Estilo para el logotipo de la barra de navegación */
+.navbar-brand {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-right: 110px;
+}
+
+/* Estilo para el texto de la barra de navegación */
+header .navbar-text {
+    font-family: 'edu-australia-vi-wa-nt-mano-precisa';
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+header .nav-link {
+    font-family: 'montserrat', sans-serif;
+    background: transparent;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 3%;
+    color: #ffffff;
+}
+
+header .nav-link:hover {
+    color: #22ff00;
+}
+
+/* Estilo para la barra de navegación */
+.navbar .navbar-nav {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #191818;
+}
+
+header, footer {
+    background: rgba(0, 0, 0, 0.6); /* Fondo negro con opacidad */
+    color: #ff7a7a;
+}
+
+/* Otros estilos del cuerpo */
+main {
+    background: rgba(12, 67, 144, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el título de la sección "Nosotros" */
+#nosotros h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+    text-shadow: #444 3px 3px;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+/* Estilo para el párrafo de la sección "Nosotros" */
+#nosotros p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #151517;
+    text-shadow: #c4c4c4 2px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para subtítulos de la sección "Nosotros" */
+#nosotros h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: #02015b;
+    text-shadow: #f0f9d9 1px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para la lista de valores */
+#nosotros ul li {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #f0f9d9;
+    text-shadow: #00bbff 1px 2px;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para el título de la sección "Especialidades" */
+#especialidades h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+    text-shadow: #444 3px 3px;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+/* Estilo para el título de la sección "Promociones" */
+#promociones h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+    text-shadow: #444 3px 3px;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #201e1e;
+}
+
+/* Estilo para el título de la sección "Contacto" */
+#contacto h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+    text-shadow: #444 3px 3px;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+/* Estilo para subtítulos de la sección "Contacto" */
+#contacto h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: #02015b;
+    text-shadow: #f0f9d9 1px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para párrafos de la sección "Contacto" */
+#contacto p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #151517;
+    text-shadow: #ffffff 2px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para el título de la sección "Inicio de Sesión / Registro" */
+#login-registro h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+    text-shadow: #444 3px 3px;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+/* Estilo para subtítulos de la sección "Inicio de Sesión / Registro" */
+#login-registro h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: #02015b;
+    text-shadow: #f0f9d9 1px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para etiquetas de la sección "Inicio de Sesión / Registro" */
+#login-registro label {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #151517;
+    text-shadow: #c4c4c4 2px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#agenda h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+    text-shadow: #444 3px 3px;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#agenda p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #151517;
+    text-shadow: #ffffff 2px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#historial-clinico h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+    text-shadow: #444 3px 3px;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#historial-clinico p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #151517;
+    text-shadow: #ffffff 2px 2px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+form .btn {
+    background-color: #007bff;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #0056b3;
+}
+
+.carousel-inner { 
+    width: 80%; 
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.carousel-inner img {
+    width: auto;
+    height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    opacity: 0.5;
+}
+/* Modificar el tamaño de las imágenes dentro de las cards */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Establece una altura máxima para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área definida sin deformarse */
+}
+
+/* Modificar el tamaño del contenedor de las cards */
+.container .row .col-lg-4,
+.container .row .col-md-6 {
+    max-width: 300px; /* Establece el ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor horizontalmente */
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+}
+
+footer .social-icons a {
+    font-size: 1.2rem;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
