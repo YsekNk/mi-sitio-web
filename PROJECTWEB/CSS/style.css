@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+Australia+VIC+WA+NT+Mano+Precursiva&display=swap');
 
-/* Estilo para el cuerpo */
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -16,7 +16,7 @@ body {
     background: linear-gradient(rgb(255, 255, 255) 20%, rgb(83, 118, 184) 80%);
 }
 
-/* Estilo para el logotipo de la barra de navegación */
+
 .navbar-brand {
     width: 100px;
     height: 100px;
@@ -25,7 +25,6 @@ body {
     margin-right: 110px;
 }
 
-/* Estilo para el texto de la barra de navegación */
 header .navbar-text {
     font-family: 'edu-australia-vi-wa-nt-mano-precisa';
     font-size: 2rem;
@@ -35,7 +34,6 @@ header .navbar-text {
     text-align: center;
 }
 
-/* Estilo para los enlaces de la barra de navegación */
 header .nav-link {
     font-family: 'montserrat', sans-serif;
     background: transparent;
@@ -49,7 +47,6 @@ header .nav-link:hover {
     color: #22ff00;
 }
 
-/* Estilo para la barra de navegación */
 .navbar .navbar-nav {
     border-radius: 25px;
     border-style: solid;
@@ -57,18 +54,16 @@ header .nav-link:hover {
 }
 
 header, footer {
-    background: rgba(0, 0, 0, 0.6); /* Fondo negro con opacidad */
+    background: rgba(0, 0, 0, 0.6); 
     color: #ff7a7a;
 }
 
-/* Otros estilos del cuerpo */
 main {
     background: rgba(12, 67, 144, 0.5);
     padding: 20px;
     border-radius: 10px;
 }
 
-/* Estilo para el título de la sección "Nosotros" */
 #nosotros h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -82,7 +77,6 @@ main {
     border-color: #ffffff;
 }
 
-/* Estilo para el párrafo de la sección "Nosotros" */
 #nosotros p {
     font-family: 'Montserrat';
     font-weight: 600;
@@ -93,7 +87,6 @@ main {
     text-align: justify;
 }
 
-/* Estilo para subtítulos de la sección "Nosotros" */
 #nosotros h3 {
     font-family: 'Montserrat';
     font-weight: 800;
@@ -104,7 +97,6 @@ main {
     text-align: justify;
 }
 
-/* Estilo para la lista de valores */
 #nosotros ul li {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -114,7 +106,6 @@ main {
     margin-bottom: 0.5rem;
 }
 
-/* Estilo para el título de la sección "Especialidades" */
 #especialidades h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -128,7 +119,6 @@ main {
     border-color: #ffffff;
 }
 
-/* Estilo para el título de la sección "Promociones" */
 #promociones h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -142,7 +132,6 @@ main {
     border-color: #201e1e;
 }
 
-/* Estilo para el título de la sección "Contacto" */
 #contacto h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -156,7 +145,6 @@ main {
     border-color: #ffffff;
 }
 
-/* Estilo para subtítulos de la sección "Contacto" */
 #contacto h3 {
     font-family: 'Montserrat';
     font-weight: 800;
@@ -167,7 +155,6 @@ main {
     text-align: justify;
 }
 
-/* Estilo para párrafos de la sección "Contacto" */
 #contacto p {
     font-family: 'Montserrat';
     font-weight: 600;
@@ -178,7 +165,6 @@ main {
     text-align: justify;
 }
 
-/* Estilo para el título de la sección "Inicio de Sesión / Registro" */
 #login-registro h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -192,7 +178,6 @@ main {
     border-color: #ffffff;
 }
 
-/* Estilo para subtítulos de la sección "Inicio de Sesión / Registro" */
 #login-registro h3 {
     font-family: 'Montserrat';
     font-weight: 800;
@@ -203,7 +188,6 @@ main {
     text-align: justify;
 }
 
-/* Estilo para etiquetas de la sección "Inicio de Sesión / Registro" */
 #login-registro label {
     font-family: 'Montserrat';
     font-weight: 600;
@@ -302,7 +286,7 @@ form .btn:hover {
     background-color: transparent;
     opacity: 0.5;
 }
-/* Modificar el tamaño de las imágenes dentro de las cards */
+
 .card-img-top {
     width: 100%;
     height: auto;
@@ -310,7 +294,6 @@ form .btn:hover {
     object-fit: cover; 
 }
 
-/* Modificar el tamaño del contenedor de las cards */
 .container .row .col-lg-4,
 .container .row .col-md-6 {
     max-width: 300px;
