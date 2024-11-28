@@ -13,7 +13,7 @@ body {
 }
 
 .navbar { 
-    background: linear-gradient(rgb(255, 255, 255) 20%, rgb(83, 118, 184) 80%); /* Gradiente de fondo */ 
+    background: linear-gradient(rgb(255, 255, 255) 20%, rgb(83, 118, 184) 80%);
 }
 
 /* Estilo para el logotipo de la barra de navegación */
@@ -306,15 +306,15 @@ form .btn:hover {
 .card-img-top {
     width: 100%;
     height: auto;
-    max-height: 200px; /* Establece una altura máxima para las imágenes */
-    object-fit: cover; /* Ajusta la imagen para que cubra el área definida sin deformarse */
+    max-height: 200px; 
+    object-fit: cover; 
 }
 
 /* Modificar el tamaño del contenedor de las cards */
 .container .row .col-lg-4,
 .container .row .col-md-6 {
-    max-width: 300px; /* Establece el ancho máximo del contenedor */
-    margin: auto; /* Centra el contenedor horizontalmente */
+    max-width: 300px;
+    margin: auto;
 }
 
 footer {
